@@ -1,15 +1,15 @@
- variable "kubernetes_cluster_id" {
+variable "kubernetes_cluster_id" {
   type = string
- }
- variable "kubernetes_cluster_cert_data" {
+}
+variable "kubernetes_cluster_cert_data" {
   type = string
- }
- variable "kubernetes_cluster_endpoint" {
+}
+variable "kubernetes_cluster_endpoint" {
   type = string
- }
- variable "kubernetes_cluster_name" {
+}
+variable "kubernetes_cluster_name" {
   type = string
- }
- variable "eks_nodegroup_id" {
+}
+variable "eks_nodegroup_id" {
   type = string
- }
+}
